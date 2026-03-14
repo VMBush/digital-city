@@ -29,7 +29,7 @@ const map = new maplibregl.Map({
 
 // загрузка данных
 async function loadData() {
-  const res = await fetch("http://localhost:3000/api/map");
+  const res = await fetch("http://46.38.156.143:3000/api/map");
   return res.json();
 }
 
